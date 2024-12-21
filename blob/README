@@ -1,0 +1,25 @@
+DOWNLOAD TAMPER MONKEY (Chrome extension)
+Refrence if you need help: https://www.youtube.com/watch?v=8tyjJD65zws&ab_channel=Tampermonkey
+
+
+- Copy past the script and if you look closely at the heading you can adjust which servers you
+want to run your self feed farm in
+- You can add more '@match <url....>' after line 6
+- If you add more urls, make sure to add them to line 23 which should look something like
+    'const urls = [
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4801",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4802",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4803",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4804",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4805",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4806",
+        "http://custom.client.blobgame.io/?ip=139.99.8.156:4807"
+    ];'
+- Once you copy pasted the script, save the file, copy one of the urls, and you are set to go
+
+Run Down:
+-sample of how this would look like
+- you have copy pasted the script
+- saved the script
+- select any of the starting urls in @match so for ex. http://custom.client.blobgame.io/?ip=139.99.8.156:4801
+- go to the self feed place and watch the script in action! (make sure tamper monkey is enabeled for that site)
