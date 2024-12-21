@@ -2,7 +2,7 @@ DOWNLOAD TAMPER MONKEY (Chrome extension)
 Refrence if you need help: https://www.youtube.com/watch?v=8tyjJD65zws&ab_channel=Tampermonkey
 
 
-- Copy past the script and if you look closely at the heading you can adjust which servers you
+- Copy past the script from .js file and if you look closely at the heading you can adjust which servers you
 want to run your self feed farm in
 - You can add more '@match <url....>' after line 6
 - If you add more urls, make sure to add them to line 23 which should look something like
