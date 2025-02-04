@@ -2,7 +2,7 @@ import nltk
 import random
 nltk.download('words')
 from nltk.corpus import words
-
+#TODO: FIX THE SOLVING MECHANISM
 five_letter_list = [word for word in words.words() if len(word) == 5]
 past_guesses = [] #dont need it, this just a temp to see if it works
 final_word = {0:'', 1: '', 2:'', 3: '', 4: ''}
