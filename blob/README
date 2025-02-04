@@ -1,8 +1,12 @@
 DOWNLOAD TAMPER MONKEY (Chrome extension)
-Refrence if you need help: https://www.youtube.com/watch?v=8tyjJD65zws&ab_channel=Tampermonkey
+Reference if you need help with tampermonkey: https://www.youtube.com/watch?v=8tyjJD65zws&ab_channel=Tampermonkey
 
+DISCLAIMER: For those of you who think this is a scam, it's not. Simply put, tamper monkey has been used for a decade and is used to interact with the console logs and html of a certain website and in this case blob.io.
+    From there, we can code out our own scripts and all this script does is clicks t and space for unlimited self feed, so your computer does have to be turned on. If you have any concerns, put the script inside of chatgpt
+    to see what it does for your own confirmation. 
 
-- Copy past the script and if you look closely at the heading you can adjust which servers you
+Tips:
+- Copy past the script from .js file and if you look closely at the heading you can adjust which servers you
 want to run your self feed farm in
 - You can add more '@match <url....>' after line 6
 - If you add more urls, make sure to add them to line 23 which should look something like
